@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Foundational is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://www.foundational.io/
+Foundational is a Data Management Platform that automates pre‑deploy impact analysis, lineage, and data contracts, enabling proactive data governance for AI‑driven enterprises. It helps teams find, fix, and prevent data incidents before code merges, reducing risk and protecting trust across the data lifecycle.
+
+**Areas:** Company · Data Governance · AI · Data Management · Lineage
+
+## Foundational on APIs.io
+
+Everything profiled for Foundational is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/foundational/](https://apis.io/providers/foundational/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Foundational Auth API](https://apis.io/apis/foundational/foundational-auth-api/) — The Auth API from Foundational — 1 operation(s) for auth.
+- [Foundational Lineage API](https://apis.io/apis/foundational/foundational-lineage-api/) — The Lineage API from Foundational — 14 operation(s) for lineage.
+- [Foundational Manual Lineage API](https://apis.io/apis/foundational/foundational-manual-lineage-api/) — The Manual Lineage API from Foundational — 3 operation(s) for manual lineage.
+- [Foundational Monitors API](https://apis.io/apis/foundational/foundational-monitors-api/) — The Monitors API from Foundational — 2 operation(s) for monitors.
+- [Foundational Onboarding API](https://apis.io/apis/foundational/foundational-onboarding-api/) — The Onboarding API from Foundational — 5 operation(s) for onboarding.
+- [Foundational Policies API](https://apis.io/apis/foundational/foundational-policies-api/) — The Policies API from Foundational — 3 operation(s) for policies.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Foundational Webhooks](https://apis.io/asyncapis/foundational/foundational-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Foundational Agentic Access](https://apis.io/agentic-access/foundational/foundational-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AppGraphNeighborsResponse](https://apis.io/schemas/foundational/foundational-app-graph-neighbors-response/)
+- [DashboardUsageRankingResponse](https://apis.io/schemas/foundational/foundational-dashboard-usage-ranking-response/)
+- [EdgeProvenanceResponse](https://apis.io/schemas/foundational/foundational-edge-provenance-response/)
+- [LineageEntitiesResponse](https://apis.io/schemas/foundational/foundational-lineage-entities-response/)
+- [LineageEntityResponse](https://apis.io/schemas/foundational/foundational-lineage-entity-response/)
+- [PublicPolicyResponse](https://apis.io/schemas/foundational/foundational-public-policy-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Foundational Context](https://apis.io/jsonld/foundational/foundational-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Foundational Openapi Overlay](https://apis.io/overlays/foundational/foundational-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Foundational API Rules](https://apis.io/rules/foundational/foundational-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Foundational Domain Security](https://apis.io/security/foundational/foundational-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Foundational Plans Pricing](https://apis.io/plans/foundational/foundational-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.foundational.io/)
+- [Documentation](https://docs.foundational.io/)
+- [Getting started](https://docs.foundational.io/en/collections/6125551-get-started)
+- [API reference](https://docs.foundational.io/en/collections/10497184-ai-and-api-connectivity)
+- [Pricing](https://www.foundational.io/pricing)
+- [Sign up](https://www.foundational.io/demo)
+- [Blog](https://www.foundational.io/blog)
+- [Terms of service](https://www.foundational.io/policies/terms-of-service)
+- [Privacy policy](https://www.foundational.io/policies/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 49.9** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 61.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 44.7 |
+
+**Agent readiness 44.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/foundational/](https://apis.io/providers/foundational/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Foundational: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/foundational/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
